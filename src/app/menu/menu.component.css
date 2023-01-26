@@ -1,0 +1,36 @@
+
+.container__contain{
+    width: 340px;
+    margin: 0 auto;
+    padding: 2.7rem 3rem 0 3rem;
+    background-color: #f6f6f9;
+}
+i{
+    color: rgb(179, 176, 176);
+}
+.bi, .bx{
+    font-size: 1.4rem;
+}
+/* ICONOS MENU */
+
+.btn__icon{
+    cursor: pointer;
+}
+.btn__icon:hover{
+    transition: .3s;
+    transform: scale(1.27);
+}
+.btn--icon{  
+    color: #fa4a0c;
+} 
+
+/* Responsive */
+@media only screen and (min-width: 1200px) {
+    .container__contain{
+        width: 370px;
+    } 
+    .container__icon{
+        margin: .3rem 0;
+    }
+
+}
