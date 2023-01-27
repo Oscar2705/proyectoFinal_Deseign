@@ -10,6 +10,10 @@ import { LoadingComponent } from './loading/loading.component';
 import { MyProfileUpdatePersonalComponent } from './my-profile-update-personal/my-profile-update-personal.component';
 import { MenuComponent } from './menu/menu.component';
 import { PersonalDetailsComponent } from './personal-details/personal-details.component';
+import { HomeComponent } from './home/home.component';
+import { FormsModule } from '@angular/forms';
+import { NoItemsCartComponent } from './no-items-cart/no-items-cart.component';
+import { NoHistoryYetComponent } from './no-history-yet/no-history-yet.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +24,15 @@ import { PersonalDetailsComponent } from './personal-details/personal-details.co
     LoadingComponent,
     MyProfileUpdatePersonalComponent,
     MenuComponent,
-    PersonalDetailsComponent
+    PersonalDetailsComponent,
+    HomeComponent,
+    NoItemsCartComponent,
+    NoHistoryYetComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
