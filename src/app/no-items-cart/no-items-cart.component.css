@@ -7,9 +7,10 @@
     height: 100%;
 }
 .container__not{
-    margin: 5.2rem 0 12.7rem 0;
+    margin: 6.3rem 0 13.8rem 0;
 }
 .subtitle{
+    font-size: 1.2rem;
     font-weight: 600;
 }
 .bi-cart2{

@@ -14,6 +14,7 @@ import { HomeComponent } from './home/home.component';
 import { FormsModule } from '@angular/forms';
 import { NoItemsCartComponent } from './no-items-cart/no-items-cart.component';
 import { NoHistoryYetComponent } from './no-history-yet/no-history-yet.component';
+import { DescriptionComponent } from './description/description.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { NoHistoryYetComponent } from './no-history-yet/no-history-yet.component
     PersonalDetailsComponent,
     HomeComponent,
     NoItemsCartComponent,
-    NoHistoryYetComponent
+    NoHistoryYetComponent,
+    DescriptionComponent
   ],
   imports: [
     BrowserModule,
