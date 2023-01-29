@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CartComponent } from './cart/cart.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 import { DescriptionComponent } from './description/description.component';
+import { HistoryComponent } from './history/history.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { MyProfileUpdatePersonalComponent } from './my-profile-update-personal/my-profile-update-personal.component';
@@ -25,28 +28,49 @@ const routes: Routes = [
   //   component:SignUpComponent
   // },
   {
+    /*Ya tiene Desktop*/
     path:'myProfileUpdate',
     component:MyProfileUpdatePersonalComponent
   },
   {
+    /*Ya tiene Desktop*/
     path:'personalDetails',
     component:PersonalDetailsComponent
   },
   {
+    /*Ya tiene Desktop*/
     path:'home',
     component:HomeComponent
   },
   {
+    /*Ya tiene Desktop*/
     path:'noItemCart',
     component:NoItemsCartComponent
   },
   {
+    /*Ya tiene Desktop*/
     path:'noHistoryYet',
     component:NoHistoryYetComponent
   },
   {
+    /*Ya tiene Desktop*/
     path:'description',
     component:DescriptionComponent
+  },
+  {
+    /*Ya tiene Desktop*/
+    path:'Cart',
+    component:CartComponent
+  },
+  {
+    /*Ya tiene Desktop*/
+    path:'checkout',
+    component:CheckoutComponent
+  },
+  {
+    
+    path:'history',
+    component:HistoryComponent
   }
 ];
 

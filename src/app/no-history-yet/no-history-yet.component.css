@@ -1,13 +1,12 @@
 .container__title{
     position: relative;
-    margin-bottom: 1.7rem;
 }
 
 .container__noItem{
     height: 100%;
 }
 .container__not{
-    margin: 6.3rem 0 13.8rem 0;
+    margin: 7rem 0 14.8rem 0;
 }
 .subtitle{
     font-size: 1.2rem;
@@ -44,7 +43,7 @@
 /* Responsive */
   @media only screen and (min-width: 1200px) {   
     .container__not{
-        margin: 6.7rem 0 17.3rem 0;
+        margin: 8.5rem 0 17rem 0;
     }        
     .bi-cart2{
         font-size: 5.7rem;

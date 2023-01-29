@@ -34,7 +34,7 @@
 .subtitle{
     color: #333333;
     margin: 2rem 0 1rem 0;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 1.2rem;
     text-align: center;
 }
@@ -85,7 +85,18 @@
 
 /* Responsive */
 
-  @media only screen and (min-width: 1200px) {   
+  @media only screen and (min-width: 1200px) { 
+    
+    .container__img{
+        display: block;
+        margin: 0 auto;
+        width: 190px;
+        height: 190px;
+    }
+    .subtitle{
+        margin: 3.5rem 0 .8rem 0;
+    }
+
     .container__not{
         margin: 6.7rem 0 16.6rem 0;
     }        
